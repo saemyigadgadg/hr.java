@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class User {
 	private String userName;
-	private int age;
+	private String age;
 	private LocalDate joinDate;
 	
 	public String getUserName() {
@@ -15,11 +15,11 @@ public class User {
 		this.userName = userName;
 	}
 	
-	public int getAge() {
+	public String getAge() {
 		return age;
 	}
 	
-	public void setAge(int age) {
+	public void setAge(String age) {
 		this.age = age;
 	}
 	
