@@ -9,6 +9,4 @@ public class Main {
 		System.out.println(user.getUserName());
 	}
 }
-
-
 //참된데이터 integrity 무결점

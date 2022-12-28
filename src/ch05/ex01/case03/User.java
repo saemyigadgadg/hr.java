@@ -19,8 +19,6 @@ public class User {
 	public void setAge(int age) { //getter
 		this.age = age;
 	}
-	
-	
 }
 /* public: 공개적이다 
  * private: 감춘다. 사적이다.
@@ -38,3 +36,5 @@ this. 하면 주소를 찾아가고 그 곳에 데이터를 가져간다.
 /* 위에 변수 선언하고 오른쪽 마우스 소스 들어가서
  * getter and setter 눌러서 select all 시키면 자동으로
  * 위의 코드가 만들어진다.*/
+
+//domain을 디자인 할때 데이터들은 캡슐화를 해야한다.

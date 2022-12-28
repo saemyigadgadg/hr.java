@@ -11,6 +11,5 @@ public class Main {
 		
 		System.out.printf("%s, %b, %d\n",
 				myTv.getColor(),myTv.isPower(), myTv.getChannel());
-	
 	}
 }
