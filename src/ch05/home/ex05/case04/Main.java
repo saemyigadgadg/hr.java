@@ -5,15 +5,14 @@ import java.time.LocalDate;
 public class Main {
 	public static void main(String[] args) {
 		Man man = new Man();
-		LocalDate birthDay = LocalDate.now();
+		LocalDate birthday = LocalDate.of(2025,6,7);
 		
 		man.seat();
 		man.introduce();
 		
 		man.setManName("최한석");
 		man.setAge(33);
-		man.setBirthDay();
-		
+		man.setBirthday(birthday);
 		
 		man.wait_the_food();
 		man.sing();

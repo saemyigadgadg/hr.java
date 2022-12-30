@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class Man {
 	private String manName;
 	private int age;
-	private LocalDate birthDay;
+	private LocalDate birthday;
 	
 	public void seat() {}
 	public void introduce() {}
@@ -22,8 +22,8 @@ public class Man {
 		this.age = Age;
 	}
 
-	public void setBirthDay(LocalDate birthDay) {
-		this.birthDay = birthDay;
+	public void setBirthday(LocalDate birthday) {
+		this.birthday = birthday;
 	}
 }
 /*
