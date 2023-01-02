@@ -13,7 +13,7 @@ public class Console {
 	//명령문도 바로 시작된다.
 	
 	private static void inMsg(String msg) {
-		System.out.print(msg + "\n: ");
+		System.out.print(msg + "\n> ");
 	}
 	
 	public static String inStr(String msg) {
@@ -33,6 +33,6 @@ public class Console {
 	}
 	
 	public static void err(String msg) {
-		System.out.println("에러] " + msg);
+		System.out.println("ERROR] " + msg);
 	}
 }

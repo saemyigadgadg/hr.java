@@ -1,44 +1,45 @@
-package ch05.home.ex06.case02;
+package ch05.home.ex06.case02선생님답;
 
 import java.util.Scanner;
 
 public class Console {
 private static Scanner sc;
-
 	
 	static {
 		sc = new Scanner(System.in);
 	}
 	
 	private static void inMsg(String msg) {
-		System.out.print(msg + "\n>");
+		System.out.print(msg + "\n> ");
 	}
 	
 	public static String inStr(String msg) {
-		boolean isGood;
+		String input = "";
+		boolean isGood = false;
+		
 		do {
 			Console.inMsg(msg);
-			String tmp = sc.nextLine().trim();
-			isGood = tmp.matches("[a-zA-Z가-힣0-9]+");
-			tmp = msg;
+			input = sc.nextLine();
+			isGood = input.matches("[a-zA-Z가-힣]+");
 			if(!isGood) Console.err("문자가 아닙니다.");
-		} while(!isGood); 
-		return msg;
-		}
+		} while(!isGood);
+		
+		return input;
+	}
 	
 	public static int inNum(String msg) {
-		boolean isGood;
-		int num = 0;
+		String input = "";
+		boolean isGood = false;
+		
 		do {
 			Console.inMsg(msg);
-			String tmp = sc.nextLine();
-			isGood = tmp.matches("[0-9]+");
-			String tmpFirst = tmp.substring(0);
-			isGood = !tmpFirst.matches("[0]");
-			if(isGood) num = Integer.parseInt(tmp);
+			input = sc.nextLine();
+			isGood = input.matches("^[1-9][0-9]*");
+			//^ 행의 첫 글자를 나타내는 커서(cursor)
 			if(!isGood) Console.err("자연수가 아닙니다.");
 		} while(!isGood);
-		return num;
+		
+		return Integer.parseInt(input);
 	}
 	
 	public static void info(String msg) {
