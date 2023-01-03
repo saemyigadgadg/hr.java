@@ -9,6 +9,6 @@ public class Main {
 		User user2 = new User();
 		user2.setUserName("한아름");
 		user2.setAge(35);
-		user2.setRegDate(LocalDate.now());
+		user2.setRegDate(LocalDate.now());	
 	}
 }

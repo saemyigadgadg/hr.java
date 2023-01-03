@@ -11,6 +11,6 @@ public class C07Date {
 		System.out.println(date);
 		System.out.println(time);
 		
-		//toString이 호출되고 date를 이용해 가공한 string 값을 리턴한다.
+		// println = toString이 호출되고 date를 이용해 가공한 string 값을 리턴한다.
 	}
 }

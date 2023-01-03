@@ -21,7 +21,7 @@ public class C04String {
 		
 		int i = "apple".codePointAt(0);
 		//해당 인덱스 글자인 p의 유니코드를 리턴한다.
-		i = "a".hashCode();//hashcode가 곧 유니코드이다.
+		i = "a".hashCode();//hashcode가 유니코드의 해시코드(주소값)를 불러온다. 
 		i = "b".hashCode();
 		i = "b".compareTo("a");//compareTo앞 뒤 비교해서 크면 양수 작으면 음수
 		i = "a".compareTo("b");
