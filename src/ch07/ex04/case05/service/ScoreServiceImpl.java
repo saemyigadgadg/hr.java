@@ -36,3 +36,7 @@ public class ScoreServiceImpl implements ScoreService {
 		}
 	}
 }	
+
+/* 서비스는 dao를 디펜던시로 갖는다.
+이를 테스트 하기 위해서는 dao로 부터 받을 법한 데이터를 수동으로
+준비해 준다 (fixture)*/

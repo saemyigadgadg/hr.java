@@ -11,6 +11,6 @@ public class AutoBoxing {
 }
 
 /* AutoBoxing 기본 타입 데이터에 대응하는 Wrapper 
-* 클래스로 만드는 동작
+* 클래스로 만드는 동작이다.
 * AutoUnBoxing : Wrapper 클래스에서 기본 타입으로 변환
 */

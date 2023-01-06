@@ -12,6 +12,7 @@ public class Main {
 			System.out.println(animal);
 		
 		Object[] objs = new Object[3];
+		//모든 객체의 타입을 갖고 싶다. 할 때 Object 타입을 쓰면 된다.
 		objs[0] = new Cat("헤롱이");
 		objs[1] = new Dog("왈왈이");
 		objs[2] = new Dog("성큼이");

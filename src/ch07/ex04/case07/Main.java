@@ -3,6 +3,7 @@ package ch07.ex04.case07;
 public class Main {
 	public static void main(String[] args) {
 		Animal[] animals = new Animal[3];
+		//동물로서의 관점 고양이도 뱀도 다 가져올 수 있다.
 		
 		animals[0] = new Cat();
 		animals[1] = new Snake();
