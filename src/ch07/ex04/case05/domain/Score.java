@@ -12,7 +12,7 @@ public class Score {
 		this.eng = eng;
 		this.math = math;
 	}
-	
+
 	public int getKor() {
 		return kor;
 	}
@@ -23,6 +23,10 @@ public class Score {
 
 	public int getMath() {
 		return math;
+	}
+	
+	public int getSum() {
+		return this.sum;
 	}
 
 	public void setSum(int sum) {
