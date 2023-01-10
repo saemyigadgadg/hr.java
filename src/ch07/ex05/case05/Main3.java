@@ -1,7 +1,6 @@
 package ch07.ex05.case05;
 
 public class Main3 {
-	private static final int Cat = 0;
 
 	public static void main(String[] args) {
 		Floor floor1 = new Floor();
@@ -19,8 +18,7 @@ public class Main3 {
 		System.out.println(house);
 		
 		for(Floor floor : house)
-			for(Cat cat : floor)
-				cat.eat();
+			for(Cat cat : floor) cat.eat();
 		//과제 : 고양이 6마리에게 밥을 먹여라.
 	}
 }

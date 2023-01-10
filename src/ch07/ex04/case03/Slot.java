@@ -18,7 +18,7 @@ public class Slot {
 			i = (int)(Math.random() * 45);
 			ball = balls[i];
 			balls[i] = null;
-		}while(ball == null);
+		} while(ball == null);
 		
 		return ball;
 	} //0 - 44까지의 정수

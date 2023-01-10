@@ -40,7 +40,8 @@ public class MyList {
 		for(int i = list.size() - 1; i >= 0; i--)//맨 끝에서 부터 지우면 자리 이동을 안한다.
 			list.remove(i);
 		System.out.println(list);
-		//Arrays.asList 단독으로 쓰면 안된다.		
+		//Arrays.asList 단독으로 쓰면 안된다.	
+		//asList는 배열을 리스트로 바꿔준다.
 	}
 }
 /* 배열의 단점을 보완한 문법으로 
