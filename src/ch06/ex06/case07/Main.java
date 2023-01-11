@@ -6,12 +6,12 @@ public class Main {
 		
 		switch(val) {
 		case 1 -> val++; //노동자를 추가할때
-		case 2 -> val++; //노동자를 삭제할떄
+		case 2 -> val--; //노동자를 삭제할떄
 		}
 		
 		switch(val) {
 		case Code.USER_ADD -> val++;
-		case Code.USER_DEL -> val++;
+		case Code.USER_DEL -> val--;
 		}//유지보수 노동자가 코드 파악하기 용이하다.
 	}
 }

@@ -44,26 +44,4 @@ public interface Console {
 	public static void err(String msg) {
 		System.out.println("ERROR] " + msg);
 	}
-	
-	/*static void info(Object obj) {
-		System.out.println(obj);
-	}
-	
-	static int inInt(String msg) {
-		boolean isGood = false;
-		boolean isGood2 = false;
-		int num = 0;
-		do {
-			System.out.print(msg + "\n> ");
-			String tmp = sc.nextLine();
-			isGood = tmp.matches("^[1-9][0-9]+");
-			isGood2 = tmp.matches("[0]");
-			if(isGood) num = Integer.parseInt(tmp);
-			if(isGood2) num = Integer.parseInt(tmp);
-			isGood = num <= 100;
-			if(!isGood && !isGood2) System.out.println("ERROR] 100이하 정수로 입력하세요.");
-		}while(!isGood || !isGood2);
-		return num;
-	}*/
-	
 }
