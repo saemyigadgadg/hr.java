@@ -2,7 +2,7 @@ package ch08.ex02.case04;
 
 public class Main {
 	public static void main(String[] args) {
-		int choice = 1;
+		int choice = 0;
 		String jobName = "";
 		
 		switch(Job.valueOf(choice)) {

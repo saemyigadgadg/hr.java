@@ -9,7 +9,7 @@ public class MyList {
 		List<Integer> list = new ArrayList<>();
 		// 앞쪽에 Integer을 썼기에 뒤쪽에 자동으로 들어가므로 생략해도 된다.
 		list.add(1); //0 인덱스 //오토박싱이 되어 list로 들어간다.
-		list.add(2); //1 CRUD중에 C Creat를 의미한다.
+		list.add(2); //1 CRUD중에 C Create를 의미한다.
 		list.add(3); //2
 		list.add(1); //3
 		/*에드매서드를 사용하면 순서대로 벨류에 인덱스가 
