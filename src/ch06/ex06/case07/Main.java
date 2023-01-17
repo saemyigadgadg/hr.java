@@ -13,6 +13,8 @@ public class Main {
 		case Code.USER_ADD -> val++;
 		case Code.USER_DEL -> val--;
 		}//유지보수 노동자가 코드 파악하기 용이하다.
+		
+		System.out.println(val);
 	}
 }
 
